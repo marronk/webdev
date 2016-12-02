@@ -74,7 +74,11 @@ h1 {text-align: center;
       right: 0px;
       background-color: #ff0066;}
 	     
- @media (min-width: 992px) and (max-width: 1280px)  { 
+.container {margin-left:10px:}
+
+
+
+@media (min-width: 992px) and (max-width: 1280px)  { 
   
 
   .cont1{
@@ -89,9 +93,9 @@ h1 {text-align: center;
 
 @media (min-width: 768px) and (max-width: 991px) { 
    
-   .cont1{ width: 45% ; color: red}
-   .cont2{ width: 45% ; color: red}
-   .cont3 { width: 92%; color: gray }
+   .cont1{ width: 45% ;}
+   .cont2{ width: 45% ;}
+   .cont3 { width: 92%;}
     
  }
 
