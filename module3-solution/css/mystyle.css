@@ -1,0 +1,37 @@
+body {background-color: ;}
+
+
+.nav-list {margin-top: 10px;}
+
+#one {border: 0px;
+     border-radius: 0px;
+     }
+
+
+.navbar-toggle {position: relative;
+ 				float: right;
+ 				padding: 9px 10px ;
+ 				margin-top:8px;
+ 				margin-right:15px;
+ 				margin-bottom:8px;
+ 				background-color:
+ 				border:1px solid black;}
+.navbar-taggle .icon-bar + .icon-bar {margin-top: 4px;}
+
+@media (min-width:768px)
+{ .navbar-taggle{ display: none;} }
+
+
+.navbar-taggle:focus {outline:0;}
+.navbar-taggle .icon-bar {display: block;
+       width: 22px;
+       height: 2px;
+   		border-radius:1px;}
+
+           
+li {list-style: none;
+	background-color: #ffcc66;
+   border: 1px solid black;}
+
+
+
