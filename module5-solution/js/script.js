@@ -119,7 +119,7 @@ console.log(chosenCategoryShortName.short_name);
 	    
 	    console.log(1)
 	    console.log(chosenCategoryShortName);
-	    var tempval = "'" + chosenCategoryShortName + "'";
+	    var tempval = "'" + chosenCategoryShortName.short_name + "'";
        var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,'randomCategoryShortName',tempval );
 console.log(2);
 	    console.log(homeHtmlToInsertIntoMainPage);
